@@ -15,7 +15,7 @@ namespace Ejercicio6
                 lbResultado.Text = "Respuesta correcta";
             else
             {
-                lbResultado.Text = "Respuesta incorrecta\r\n";
+                lbResultado.Text = "Respuesta incorrecta:\r\n";
                 if(!chbOpcion1.Checked)
                     lbResultado.Text += "  No siempre se debe inializarse. Es Verdadero\r\n";
                 if (chbOpcion2.Checked)

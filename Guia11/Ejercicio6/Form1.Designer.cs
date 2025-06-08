@@ -127,7 +127,7 @@
             Margin = new Padding(4);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Examen";
             ResumeLayout(false);
             PerformLayout();
         }

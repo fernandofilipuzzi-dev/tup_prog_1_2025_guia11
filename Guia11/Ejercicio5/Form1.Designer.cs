@@ -45,7 +45,7 @@
             // rbExcelente
             // 
             rbExcelente.AutoSize = true;
-            rbExcelente.Location = new Point(63, 30);
+            rbExcelente.Location = new Point(13, 16);
             rbExcelente.Margin = new Padding(4);
             rbExcelente.Name = "rbExcelente";
             rbExcelente.Size = new Size(92, 25);
@@ -57,7 +57,7 @@
             // rbBueno
             // 
             rbBueno.AutoSize = true;
-            rbBueno.Location = new Point(63, 65);
+            rbBueno.Location = new Point(13, 51);
             rbBueno.Margin = new Padding(4);
             rbBueno.Name = "rbBueno";
             rbBueno.Size = new Size(72, 25);
@@ -69,7 +69,7 @@
             // rbInsuficiente
             // 
             rbInsuficiente.AutoSize = true;
-            rbInsuficiente.Location = new Point(63, 100);
+            rbInsuficiente.Location = new Point(13, 86);
             rbInsuficiente.Margin = new Padding(4);
             rbInsuficiente.Name = "rbInsuficiente";
             rbInsuficiente.Size = new Size(107, 25);
@@ -80,7 +80,7 @@
             // 
             // btnVotar
             // 
-            btnVotar.Location = new Point(247, 53);
+            btnVotar.Location = new Point(197, 39);
             btnVotar.Margin = new Padding(4);
             btnVotar.Name = "btnVotar";
             btnVotar.Size = new Size(96, 48);
@@ -92,7 +92,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(98, 157);
+            label1.Location = new Point(48, 143);
             label1.Name = "label1";
             label1.Size = new Size(175, 21);
             label1.TabIndex = 4;
@@ -101,67 +101,63 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(189, 195);
+            label2.Location = new Point(48, 181);
             label2.Name = "label2";
-            label2.Size = new Size(84, 21);
+            label2.Size = new Size(171, 21);
             label2.TabIndex = 5;
-            label2.Text = "Excelentes:";
+            label2.Text = "Cantidad de Excelentes:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(209, 234);
+            label3.Location = new Point(68, 220);
             label3.Name = "label3";
-            label3.Size = new Size(64, 21);
+            label3.Size = new Size(151, 21);
             label3.TabIndex = 6;
-            label3.Text = "Buenos:";
+            label3.Text = "Cantidad de Buenos:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(174, 278);
+            label4.Location = new Point(33, 264);
             label4.Name = "label4";
-            label4.Size = new Size(99, 21);
+            label4.Size = new Size(186, 21);
             label4.TabIndex = 7;
-            label4.Text = "Insuficientes:";
+            label4.Text = "Cantidad de Insuficientes:";
             // 
             // lbTotal
             // 
-            lbTotal.AutoSize = true;
             lbTotal.BackColor = SystemColors.ActiveCaption;
-            lbTotal.Location = new Point(296, 157);
+            lbTotal.Location = new Point(225, 143);
             lbTotal.Name = "lbTotal";
-            lbTotal.Size = new Size(18, 21);
+            lbTotal.Size = new Size(119, 21);
             lbTotal.TabIndex = 8;
             lbTotal.Text = "  ";
             // 
             // lbExcelentes
             // 
-            lbExcelentes.AutoSize = true;
             lbExcelentes.BackColor = SystemColors.ActiveCaption;
-            lbExcelentes.Location = new Point(296, 195);
+            lbExcelentes.Location = new Point(225, 181);
             lbExcelentes.Name = "lbExcelentes";
-            lbExcelentes.Size = new Size(18, 21);
+            lbExcelentes.Size = new Size(119, 21);
             lbExcelentes.TabIndex = 9;
             lbExcelentes.Text = "  ";
             // 
             // lbBuenos
             // 
-            lbBuenos.AutoSize = true;
             lbBuenos.BackColor = SystemColors.ActiveCaption;
-            lbBuenos.Location = new Point(296, 234);
+            lbBuenos.Location = new Point(225, 220);
             lbBuenos.Name = "lbBuenos";
-            lbBuenos.Size = new Size(18, 21);
+            lbBuenos.Size = new Size(119, 21);
             lbBuenos.TabIndex = 10;
             lbBuenos.Text = "  ";
             // 
             // lbInsuficientes
             // 
-            lbInsuficientes.AutoSize = true;
             lbInsuficientes.BackColor = SystemColors.ActiveCaption;
-            lbInsuficientes.Location = new Point(296, 278);
+            lbInsuficientes.Location = new Point(225, 264);
             lbInsuficientes.Name = "lbInsuficientes";
-            lbInsuficientes.Size = new Size(18, 21);
+            lbInsuficientes.Size = new Size(119, 21);
             lbInsuficientes.TabIndex = 11;
             lbInsuficientes.Text = "  ";
             // 
@@ -169,7 +165,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(391, 325);
+            ClientSize = new Size(357, 301);
             Controls.Add(lbInsuficientes);
             Controls.Add(lbBuenos);
             Controls.Add(lbExcelentes);
