@@ -16,12 +16,12 @@ namespace Ejercicio6
             else
             {
                 lbResultado.Text = "Respuesta incorrecta:\r\n";
-                if(!chbOpcion1.Checked)
-                    lbResultado.Text += "  No siempre se debe inializarse. Es Verdadero\r\n";
+                if(chbOpcion1.Checked)
+                    lbResultado.Text += "  No siempre se debe inializarse. Es Falso\r\n";
                 if (chbOpcion2.Checked)
                     lbResultado.Text += "  Nunca debe inicializarse. Es Falso\r\n";
-                if (chbOpcion3.Checked)
-                    lbResultado.Text += "  Siempre debe inicializarse. Es Falso";
+                if (!chbOpcion3.Checked)
+                    lbResultado.Text += "  Siempre debe inicializarse. Es Verdadero";
             }
         }
     }
